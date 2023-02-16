@@ -215,6 +215,69 @@ header{
     margin-top: 5px;
 }
 
+.cards{
+    display: flex;
+    *margin-top: 10px;
+    *padding-left: 5px;
+    *justify-content: space-between;
+}
+
+.card{
+    --bs-card-spacer-y:1rem;
+    --bs-card-spacer-x:1rem;
+    --bs-card-title-spacer-y:0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width:var(--bs-border-width);
+    --bs-card-border-color:var(--bs-border-color-translucent);
+    --bs-card-border-radius:var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius:calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y:0.5rem;
+    --bs-card-cap-padding-x:1rem;
+    --bs-card-cap-bg:rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg:var(--bs-body-bg);
+    --bs-card-img-overlay-padding:1rem;
+    --bs-card-group-margin:0.75rem;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+    height:var(--bs-card-height);
+    word-wrap:break-word;
+    background-color:var(--bs-card-bg);
+    background-clip:border-box;
+    border:var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius:var(--bs-card-border-radius);
+    margin: 0 10px 0 10px;
+    background-color: azure;
+    border-radius: 10px;
+    
+}
+
+/*.btn{
+    text-align: center;
+}
+*/
+.btn-primary{
+    text-align: center;
+    color: midnightblue;
+    list-style: none;
+    text-decoration: none;
+    background-color: cadetblue;
+    margin: 10px 0 10px 85px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+    font-family: sans-serif;
+
+}
+
+
+
 footer{
     *margin-left: 720px;
     *position: absolute;
@@ -222,4 +285,284 @@ footer{
     text-align: center;
     
     
+}
+
+
+@media(min-width:377px) and (max-width:576px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        *background-color: aquamarine;
+        background-color: #A2C4C9;
+        *margin-top: 10px;
+        min-height: 100vh;
+    
+    }
+    
+    
+    
+    header{
+        
+        
+        
+        align-items: center;
+        
+        display: flex;
+        
+    }
+    
+    .container{
+        display: inline-block;
+        width: 100%;
+        justify-content: space-between;
+        min-height: 70px;
+        background-color: #A2C4C9;
+        align-items: center;
+        *padding: 10px;
+    
+    }
+    
+    .logo{
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+        
+    
+    }
+    
+    .ilogo{
+        width: 90px;
+        *height: 50px;
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-color: darkgray;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 10px;
+    
+    }
+    .menu{
+        list-style: none;
+        display: block;
+        padding: 15px;
+    }
+    
+    /*menu*/
+    
+    .menu__item{
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        
+        display: flex;
+        
+        justify-content: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 20px;
+        margin-left: 25px;
+        cursor: pointer;
+    
+    
+    }
+    
+    .menu__item:hover{
+        color: azure;
+        background-color: azure;
+    }
+    
+    .menu__link {
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .menu__link:hover{
+        color: goldenrod;
+    }
+    
+    /*cuerpo*/
+    .cuerpo{
+        border-color: wheat;
+        border-style: solid;
+        border-width: 5px;
+        background-color: darkorange;
+        *margin-left: 140px;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        *padding-left: 50px;
+        *box-sizing: 100px;
+        *flex-direction: column;
+        border-radius: 20px;
+        
+    }
+    
+    
+    
+    .titulo{
+        background-color: bisque;
+        margin-right: 50px;
+        font-size: 40px;
+        margin-bottom: 10px;
+        *margin-left: 325px;
+        border-radius: 20px;
+        *padding: 0px 0px 0px 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+    }
+    
+    
+    
+    .mas_sobre_nosotros{
+        background-color: darkgrey;
+        margin-top: 50px;
+        color: turquoise;
+        font-size: 40px;
+        margin-right: 60px;
+        border-radius: 20px;
+    }
+    
+    .parrafo{
+        margin-top: 50px;
+        margin-left: -10px;
+        color: turquoise;
+        *padding-left: 10px;
+        *margin-right: 5px;
+        *text-align: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+    
+    .portada{
+        width: 300px;
+        
+        
+    }
+    
+    /*media*/
+    .media{
+        text-align: center;
+        margin: 0 0 10px -45px;
+    }
+
+    .media-1{
+        width: 300px;
+        height: 175px;
+        margin: 0;
+        
+    }
+    
+    /*servicios*/
+    .servicios{
+        display: inline-block;
+        margin: 0 0 0 -30px;
+        width: 100%;
+    }
+    .servicio{
+        display: block;
+        border: 2px;
+        border-color: azure;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: grey;
+        margin: 2px 40px 2px 4px;
+        width: 100%;
+        height: 400px;
+    
+    }
+    
+    .serim{
+        width: 100%;
+    }
+    
+    .tile{
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 25px;
+        color: darkorange;
+    }
+    
+    .tile:hover{
+        *color: blue;
+        *cursor: pointer;
+    }
+    
+    /*Formulario*/
+    .form_container{
+        background-color: #A2C4C9;
+        margin: 0 0 0 -25px;
+        width: 100%;
+        border-radius: 20px;
+        
+    
+    }
+    
+    .form_input{
+        margin-top: 20px;
+        *padding: 10px 0 0 0;
+        border-radius: 5px;
+    }
+    
+    .form_cta{
+        background-color: chartreuse;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .cards{
+        display: block;
+        *margin-top: 10px;
+        *padding-left: 5px;
+        *justify-content: space-between;
+        margin: 0 0 0 -20px;
+    }
+    
+    .card{
+        position:relative;
+        display:flex;
+        flex-direction:column;
+        min-width:0;
+        
+        word-wrap:break-word;
+        
+        background-clip:border-box;
+        
+        margin: 10px 10px 10px 10px;
+        background-color: azure;
+        border-radius: 10px;
+        width: 100%;
+        
+    }
+    
+    /*.btn{
+        text-align: center;
+    }
+    */
+    .btn-primary{
+        text-align: center;
+        color: midnightblue;
+        list-style: none;
+        text-decoration: none;
+        background-color: cadetblue;
+        margin: 10px 0 10px 85px;
+        border-radius: 5px;
+        font-size: 18px;
+        
+        font-family: sans-serif;
+    
+    }
 }
