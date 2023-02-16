@@ -288,6 +288,8 @@ footer{
 }
 
 
+
+
 @media(min-width:377px) and (max-width:576px){
 
     *{
@@ -398,7 +400,7 @@ footer{
         border-width: 5px;
         background-color: darkorange;
         *margin-left: 140px;
-        margin: 0;
+        margin: 20px 0 20px 0;
         width: 100%;
         height: auto;
         *padding-left: 50px;
@@ -478,7 +480,7 @@ footer{
         border-style: solid;
         border-radius: 10px;
         background-color: grey;
-        margin: 2px 40px 2px 4px;
+        margin: 2px 40px 10px 4px;
         width: 100%;
         height: 400px;
     
@@ -502,7 +504,7 @@ footer{
     /*Formulario*/
     .form_container{
         background-color: #A2C4C9;
-        margin: 0 0 0 -25px;
+        margin: 0 0 20px -25px;
         width: 100%;
         border-radius: 20px;
         
