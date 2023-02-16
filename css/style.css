@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    *background-color: aquamarine;
+    background-color: #A2C4C9;
+    *margin-top: 10px;
+    min-height: 100vh;
+
+}
+
+
+
+header{
+    
+    
+    
+    align-items: center;
+    
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: #A2C4C9;
+    align-items: center;
+    *padding: 10px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.ilogo{
+    width: 90px;
+    *height: 50px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-color: darkgray;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 10px;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+}
+
+/*menu*/
+
+.menu__item{
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+    display: flex;
+    
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+
+
+}
+
+.menu__item:hover{
+    color: azure;
+    background-color: azure;
+}
+
+.menu__link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.menu__link:hover{
+    color: goldenrod;
+}
+
+/*cuerpo*/
+.cuerpo{
+    border-color: wheat;
+    border-style: solid;
+    border-width: 5px;
+    background-color: darkorange;
+    margin-left: 140px;
+    width: 1000px;
+    height: 500px;
+    padding-left: 50px;
+    *box-sizing: 100px;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+
+
+
+.titulo{
+    background-color: bisque;
+    margin-right: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    *margin-left: 325px;
+    border-radius: 20px;
+    *padding: 0px 0px 0px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+
+
+.mas_sobre_nosotros{
+    background-color: darkgrey;
+    margin-top: 50px;
+    color: turquoise;
+    font-size: 40px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.parrafo{
+    margin-top: 50px;
+    color: turquoise;
+    padding-left: 10px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portada{
+    width: 300px;
+    
+    
+}
+
+/*media*/
+.media{
+    text-align: center;
+    
+}
+
+/*servicios*/
+.servicios{
+    display: flex;
+    
+}
+.servicio{
+    display: block;
+    border: 2px;
+    border-color: azure;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 2px 40px 2px 4px;
+    height: 400px;
+
+}
+
+.serim{
+    width: 400px;
+}
+
+.tile{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    color: darkorange;
+}
+
+.tile:hover{
+    *color: blue;
+    *cursor: pointer;
+}
+
+/*Formulario*/
+.form_container{
+    background-color: #A2C4C9;
+    margin: 10px 300px 0 250px;
+    border-radius: 20px;
+    
+
+}
+
+.form_input{
+    margin-top: 20px;
+    *padding: 10px 0 0 0;
+    border-radius: 5px;
+}
+
+.form_cta{
+    background-color: chartreuse;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+footer{
+    *margin-left: 720px;
+    *position: absolute;
+    background-color: darkslateblue;
+    text-align: center;
+    
+    
+}
