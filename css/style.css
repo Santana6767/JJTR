@@ -54,12 +54,19 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 20px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-a.active,a:hover {
+a.active{
     background: #89d9e6;
     transition: .5s;
 }
+
+a:hover {
+    background: #89d9e6;
+    transition: .5s;
+}
+
 
 .checkbtn {
     font-size: 30px;
@@ -83,7 +90,7 @@ a.active,a:hover {
     background-color: darkorange;
     margin-left: 140px;
     width: 1000px;
-    height: 500px;
+    height: 750px;
     padding-left: 50px;
     *box-sizing: 100px;
     flex-direction: column;
@@ -120,6 +127,19 @@ a.active,a:hover {
     margin-right: 60px;
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
+}
+
+
+.front{
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: 30px 0 0 300px;
+    background-color: #2c3e50;
+    border-color: darkkhaki;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 150px;
 }
 
 .parrafo{
@@ -180,7 +200,7 @@ a.active,a:hover {
 /*Formulario*/
 .form_container{
     background-color: #A2C4C9;
-    margin: 10px 300px 0 250px;
+    margin: 30px 300px 0 250px;
     border-radius: 20px;
     
 
@@ -200,6 +220,7 @@ a.active,a:hover {
     margin-top: 5px;
 }
 
+/*boostrap --------documentos*/
 .cards{
     display: flex;
     *margin-top: 10px;
@@ -311,7 +332,11 @@ footer{
     nav ul li a {
         font-size: 20px;
     }
-    a:hover,a.active {
+    a:hover {
+        background: none;
+        color: #89d9e6;
+    }
+    a.active{
         background: none;
         color: #89d9e6;
     }
@@ -326,7 +351,7 @@ footer{
         border-width: 5px;
         background-color: darkorange;
         *margin-left: 140px;
-        margin: 20px 0 20px 0;
+        margin: 0px 0 20px 0;
         width: 100%;
         height: 1000px;
         *padding-left: 50px;
@@ -369,6 +394,14 @@ footer{
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .front{
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: 30px 0 0 -10px;
+        
     }
     
     .parrafo{
@@ -440,7 +473,7 @@ footer{
     /*Formulario*/
     .form_container{
         background-color: #A2C4C9;
-        margin: 40px 0 20px -25px;
+        margin: 40px 0 0px -25px;
         width: 100%;
         border-radius: 20px;
         
@@ -462,6 +495,7 @@ footer{
         margin-top: 5px;
     }
 
+    /*boostrap --------documentos*/
     .cards{
         display: block;
         *margin-top: 10px;
