@@ -178,6 +178,20 @@ a:hover {
     background-color: grey;
     margin: 2px 40px 2px 4px;
     height: 400px;
+    text-align: center;
+}
+
+.boton_contactar{
+    background-color: greenyellow;
+    color: darkkhaki;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    font-family: cursive;
+    border-radius: 5px;
 
 }
 
@@ -243,6 +257,12 @@ a:hover {
     background-color: azure;
     border-radius: 30px;
     
+}
+
+.card-img-top{
+    width: 288px;
+    height: 150px;
+    border-radius: 20px;
 }
 
 .card-body{
