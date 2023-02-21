@@ -202,7 +202,7 @@ a:hover {
 .tile{
     background-color: #2c3e50;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 25px;
+    
     color: darkorange;
 }
 
@@ -481,7 +481,7 @@ footer{
     
     .tile{
         font-family: Arial, Helvetica, sans-serif;
-        padding-left: 25px;
+        
         color: darkorange;
     }
     
