@@ -144,6 +144,7 @@ a:hover {
 
 .parrafo{
     margin-top: 50px;
+    margin-bottom: 10px;
     color: turquoise;
     padding: 0 10px 0 10px;
     margin-right: 5px;
@@ -177,7 +178,26 @@ a:hover {
     border-radius: 10px;
     background-color: grey;
     margin: 2px 40px 2px 4px;
-    height: 400px;
+    height: 480px;
+    text-align: center;
+}
+/*--------------------*/
+.servicios_con{
+    display: flex;
+    *margin-left: 115px;
+    text-align: center;
+    
+}
+
+.servicio_con{
+    display: block;
+    border: 2px;
+    border-color: azure;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 2px 40px 2px 4px;
+    height: 480px;
     text-align: center;
 }
 
@@ -373,7 +393,7 @@ footer{
         *margin-left: 140px;
         margin: 0px 0 20px 0;
         width: 100%;
-        height: 1000px;
+        height: 1150px;
         *padding-left: 50px;
         *box-sizing: 100px;
         *flex-direction: column;
@@ -426,10 +446,10 @@ footer{
     
     .parrafo{
         margin-top: 50px;
-        *margin-left: -10px;
+        margin-bottom: 10px;
+        
         color: turquoise;
-        *padding-left: 10px;
-        *margin-right: 5px;
+
         *text-align: center;
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
@@ -471,7 +491,55 @@ footer{
         background-color: grey;
         margin: 50px 40px 10px 4px;
         width: 100%;
-        height: 400px;
+        height: 460px;
+    
+    }
+
+    /*--------------------*/
+    .servicios_con{
+        display: block;
+        *margin-left: 115px;
+        text-align: center;
+    
+    }
+
+    .servicio_con{
+        display: block;
+        border: 2px;
+        border-color: azure;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: grey;
+        margin: 2px 50px 10px 4px;
+        height: 480px;
+        text-align: center;
+    }
+
+    .boton_contactar{
+        background-color: greenyellow;
+        color: darkkhaki;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 10px;
+        font-family: cursive;
+        border-radius: 5px;
+    
+    }
+
+    .boton_contactar_con{
+        background-color: greenyellow;
+        color: darkkhaki;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 10px;
+        font-family: cursive;
+        border-radius: 5px;
     
     }
     
