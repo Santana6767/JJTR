@@ -678,6 +678,15 @@ footer{
         font-family: sans-serif;
     
     }
+
+    footer{
+        *margin-left: 720px;
+        *position: absolute;
+        background-color: darkslateblue;
+        text-align: center;
+        margin-bottom: 0;
+        
+    }
 }
 
 @media only screen and (max-width: 600px) {
