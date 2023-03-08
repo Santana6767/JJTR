@@ -1,0 +1,23 @@
+.front{
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: 30px 0 0 295px;
+        background-color: $seis-color;
+        border-color: $siete-color;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 150px;
+    }
+    .mas_sobre_nosotros{
+        text-align: center;
+        background-color: $uno-color;
+        font-family: sans-serif;
+        margin-top: 50px;
+        color: $doce-color;
+        font-size: 40px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+    }

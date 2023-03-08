@@ -1,0 +1,66 @@
+    /*boostrap --------documentos*/
+    .cards{
+        *display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        *margin-top: 20px;
+        *padding-left: 5px;
+        *justify-content: space-between;
+        text-align: center;
+        .card{
+        
+            display:flex;
+            flex-direction:column;
+            min-width:0;
+            margin: 20px 5px 10px -10px;
+            background-color: $seis-color;
+            border-radius: 30px;
+            .card-img-top{
+                width: 288px;
+                height: 150px;
+                border-radius: 20px;
+            }
+            
+            .card-body{
+                background-color: $seis-color;
+                border-radius: 20px;
+                font-family: sans-serif;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                .card-title{
+                    color: $dieciseis-color;
+                    font-size: 22px;
+                }
+                .card-text{
+                    color: $diecisiete-color;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    padding-bottom: 10px;
+                }
+            
+            /*.btn{
+                text-align: center;
+            }
+            */
+                .btn-primary{
+                    text-align: center;
+                    color: $dieciocho-color;
+                    list-style: none;
+                    text-decoration: none;
+                    background-color: $diecinueve-color;
+                    *margin: 10px 0 10px 85px;
+                    border-radius: 5px;
+                    font-size: 18px;
+                    font-weight: 100px;
+                    
+                    font-family: sans-serif;
+                
+                }
+            }
+        }
+    }
+    
+    
+    
+
+

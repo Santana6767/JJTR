@@ -1,0 +1,118 @@
+/*-------servicios_con-------------*/
+/*--------------------*/
+.servicios_con{
+    display: grid;
+    grid-template-columns: auto;
+    *margin-left: 115px;
+    text-align: center;
+    
+}
+
+.servicio_con{
+    display: block;
+    border: 2px;
+    border-color: $diecisiete-color;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: $veinte-color;
+    margin: 2px 40px 10px -10px;
+    height: 480px;
+    text-align: center;
+}
+
+.conti_glob{
+    display: grid;
+    grid-template-columns: auto;
+    *width: 80px;
+    *background-color: transparent;
+    
+}
+
+button{
+    background-color: transparent;
+    border-width: 0;
+}
+
+.boton_contactar{
+    background-color: $cinco-color;
+    color: $siete-color;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.fotoserv{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.serim{
+    width: 800px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.tile{
+    background-color: $seis-color;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: $diez-color;
+}
+
+.tile:hover{
+    *color: $trece-color;
+    *cursor: pointer;
+}
+
+    /*boostrap --------documentos*/
+.cards{
+        *display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        *margin-top: 20px;
+        *padding-left: 5px;
+        *justify-content: space-between;
+        text-align: center;
+}
+.card{
+        
+            display:flex;
+            flex-direction:column;
+            min-width:0;
+            margin: 20px 5px 10px -10px;
+            background-color: $seis-color;
+            border-radius: 30px;
+}
+.card-img-top{
+                width: 288px;
+                height: 150px;
+                border-radius: 20px;
+}
+            
+.card-body{
+                background-color: $seis-color;
+                border-radius: 20px;
+                font-family: sans-serif;
+                padding-top: 10px;
+                padding-bottom: 10px;
+}
+.card-title{
+                    color: $dieciseis-color;
+                    font-size: 22px;
+}
+.card-text{
+                    color: $diecisiete-color;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    padding-bottom: 10px;
+                }
