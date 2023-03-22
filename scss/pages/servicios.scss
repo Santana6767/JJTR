@@ -2,6 +2,7 @@
 .servicios{
         display: grid;
         grid-template-columns: auto auto;
+        margin-left: 40px;
 }
 .servicio{
         display: block;
@@ -12,7 +13,7 @@
         border-style: solid;
         border-radius: 10px;
         background-color: $veinte-color;
-        margin: 10px 2px 5px 0px;
+        margin: 20px 20px 20px 20px;
         height: 490px;
         text-align: center;
 }
